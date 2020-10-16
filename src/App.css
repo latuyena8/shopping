@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  font-family: "emoji";
+}
+.card {
+  border: none !important;
+  text-align: center;
+  cursor: pointer;
+}
+.card:hover {
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+.row {
+  margin: 1%;
+}
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear;
+  height: 80px; */
+}
+
+.App-header {
+  background-color: #222;
+  height: 140px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.nav-menu {
+  background-color: black;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+}
+.logo {
+  display: inline;
+}
+.nav-menu ul {
+  list-style: none;
+  display: inline;
+}
+.nav-menu ul li {
+  display: inline-block;
+  padding: 1% 2%;
+  color: white;
+  text-transform: uppercase;
+}
+.nav-menu ul li a {
+  color: white;
+  text-transform: uppercase;
+  padding: 3px;
+}
+.nav-menu ul li a:hover {
+  text-decoration: none !important;
+  border-bottom: 1px solid white;
+}
+.google-login,
+.facebook-login {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.facebook-login {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.google-login button {
+  width: 250px;
+}
+.profile-container {
+  background-image: url(../public//img/11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 427px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profile-box {
+  margin-right: 5%;
+  background: white;
+  width: 35%;
+  height: 80%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+}
+.root,
+.container-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.proifile-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.cart-notify {
+  margin-top: 2%;
+}
+.cart-container img {
+  width: 20%;
+}
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-body:hover .cart-btnPayment{
+  opacity: 1;
+  background-color: black
+}
+.cart-btnPayment {
+  opacity: 0;
+  background-color: black;
+  border: none
+}
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
